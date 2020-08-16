@@ -6,9 +6,9 @@ yum -y install gcc make ncurses-devel autoconf gnutls-devel
 
 # install emacs
 cd /usr/local/src
-curl -O http://ftp.gnu.org/gnu/emacs/emacs-26.3.tar.gz
-tar zxvfp emacs-26.3.tar.gz
-cd emacs-26.3
+curl -O http://ftp.gnu.org/gnu/emacs/emacs-27.1.tar.gz
+tar zxvfp emacs-27.1.tar.gz
+cd emacs-27.1
 bash autogen.sh
 ./configure -without-x -without-selinux
 make
