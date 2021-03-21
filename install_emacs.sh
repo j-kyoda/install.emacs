@@ -1,8 +1,8 @@
 #!/bin/bash
 # -*- coding: utf-8 -*-
 
-# required packages(CentOS7)
-yum -y install gcc make ncurses-devel autoconf gnutls-devel
+# required packages(debian10)
+apt-get install gcc make libncurses-dev autoconf libneon27-gnutls-dev
 
 # install emacs
 cd /usr/local/src

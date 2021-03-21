@@ -1,5 +1,5 @@
 # install.emacs
-emacs installer script for CentOS7.
+emacs installer script for Debian 10.
 
 This script install emacs-nox 27.1.
 
