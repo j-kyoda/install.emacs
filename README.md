@@ -1,7 +1,7 @@
 # install.emacs
 emacs installer script for CentOS7.
 
-This script install emacs-nox 27.1.
+This script install emacs-nox 27.2.
 
 
 How to install
