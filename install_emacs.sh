@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # -*- coding: utf-8 -*-
 
 # required packages(debian10)
-apt-get install gcc make libncurses-dev autoconf libneon27-gnutls-dev
+apt-get install -y gcc make libncurses-dev autoconf libneon27-gnutls-dev
 
 # install emacs
 cd /usr/local/src
