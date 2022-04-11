@@ -1,7 +1,7 @@
 # install.emacs
-emacs installer script for Debian 10.
+emacs installer script for Debian 11.
 
-This script install emacs-nox 27.2.
+This script install emacs-nox 28.1.
 
 
 How to install
