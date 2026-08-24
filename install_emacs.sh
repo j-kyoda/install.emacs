@@ -6,9 +6,9 @@ apt-get install -y curl gcc make libncurses-dev autoconf libneon27-gnutls-dev te
 
 # install emacs
 cd /usr/local/src
-curl -O http://ftp.gnu.org/gnu/emacs/emacs-30.2.tar.gz
-tar zxvfp emacs-30.2.tar.gz
-cd emacs-30.2
+curl -O http://ftp.gnu.org/gnu/emacs/emacs-31.1.tar.gz
+tar zxvfp emacs-31.1.tar.gz
+cd emacs-31.1
 bash autogen.sh
 ./configure -without-x -without-selinux
 make
